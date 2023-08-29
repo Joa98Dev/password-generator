@@ -7,7 +7,7 @@ This is a basic program, as its name suggests, generates random passwords.
 3. You can also copy your password to your clipboard pressing the ***Copy Password*** button.
 
 <!--Screenshot-->
-![Alt text](password_app_screenshot.png)
+![Alt text](screenshots/password_app_screenshot.png)
 
 ## Free Usage
 I made this basic program with an educational purposes.
