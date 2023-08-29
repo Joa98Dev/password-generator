@@ -6,10 +6,8 @@ This is a basic program, as its name suggests, generates random passwords.
 2. Press the ***Generate Password*** button
 3. You can also copy your password to your clipboard pressing the ***Copy Password*** button.
 
-<!--Screenshot config-->
-<div style="text-align: center;">
-    <img src="password_app_screenshot.png" alt="Password Generator Screenshot">
-</div>
+<!--Screenshot-->
+![Alt text](password_app_screenshot.png)
 
 ## Free Usage
 I made this basic program with an educational purposes.
@@ -24,9 +22,9 @@ If you want to convert this file into a window's executable file just follow the
 
 1. Open your terminal
 2. Install pyinstaller `pip install pyinstaller`
-3. Select the python file named ***main.py*** and the ***icon.ico*** file.
+3. Select the python file named ***password_generator_app.py*** and the ***icon.ico*** file.
     ~~~
-    pyinstaller.exe --onefile --icon=icon.ico main.py
+    pyinstaller.exe --onefile --icon=icon.ico password_generator_app.py
     ~~~
 4. Press ***Enter***.
 5. **Done!** 🥳
