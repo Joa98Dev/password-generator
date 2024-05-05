@@ -5,12 +5,14 @@ from random import randint
 #GUI
 root = Tk()
 root.title("Password Generator")
-root.geometry("500x300")
+root.geometry("500x350")
 root.resizable(0,0)
 
+'''
 #Set icon path
 icon_path = "icon.ico"
 root.iconbitmap(icon_path)
+'''
 
 #Function that generate random passwords
 def new_rand():
@@ -39,7 +41,7 @@ my_entry = Entry(label_frame, font=("Roboto", 24))
 my_entry.pack(pady=20, padx=20)
 
 #Create a stylized input field, background color and font
-password_entry = Entry(root, text='', font=("Roboto", 24), bd=0, bg="systembuttonface")
+password_entry = Entry(root, text='', font=("Roboto", 24), bd=0, bg="#DCDCDC")
 password_entry.pack(pady=20)
 
 #Container widget to maintian organized other widgets
