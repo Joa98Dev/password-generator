@@ -21,10 +21,10 @@ Enjoy your coding time! 😁⌨️.
 If you want to convert this file into a window's executable file just follow these steps:
 
 1. Open your terminal
-2. Install pyinstaller `pip install pyinstaller`
-3. Select the python file named ***password_generator_app.py*** and the ***icon.ico*** file.
+2. Install pyinstaller `pip install pyinstaller` (Windows) || `yay -S pyinstaller` (Linux-Arch based distros)
+3. 4. Select the python file named ***password_generator_app.py*** and the ***icon.ico*** file.
     ~~~
     pyinstaller --onefile password_generator_app.py
     ~~~
-4. Press ***Enter***.
-5. **Done!** 🥳
+5. Press ***Enter***.
+6. **Done!** 🥳
